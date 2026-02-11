@@ -4,6 +4,13 @@ Project Overview
 
 A real estate company operating across multiple cities wants to automate its house pricing process. Instead of manually estimating property values, the company aims to build a Machine Learning model that can accurately predict house prices based on historical housing data. This project implements a Linear Regression model to predict house prices using 13 property-related features including physical attributes, location details, and construction characteristics.
 
+Dataset Description
+
+- The dataset contains 13 features.
+- Each row represents one residential house.
+- Features include physical attributes, location details, and construction-related information.
+- Target variable: House Price.
+
 Objective
 
 To build a supervised machine learning regression model that:
@@ -13,7 +20,7 @@ To build a supervised machine learning regression model that:
 -Evaluates model performance using standard regression metrics.
 
 ⚙️ Project Workflow
-'''
+
 1. Data Loading
 Loaded the dataset using pandas and inspected its structure.
 
@@ -35,7 +42,6 @@ Evaluated performance using:
 -Root Mean Squared Error (RMSE)
 -R² Score
 
-'''
 Model Performance
 
 The Linear Regression model was able to capture the relationship between housing features and sale price effectively. Evaluation metrics indicate the model provides a reasonable predictive baseline for house pricing.
